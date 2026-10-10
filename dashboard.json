@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-10T16:52:57.794193+00:00",
+  "generated_at_utc": "2026-10-10T16:57:59.290373+00:00",
   "latest_result": {
     "draw_id": 2456,
     "date": "2026-10-08",
@@ -155,12 +155,12 @@
     "historical_score_note": "The test set was used to select this model. These are historical tuning scores, not future performance."
   },
   "status": {
-    "last_successful_update_utc": "2026-10-10T16:36:13.510828+00:00",
+    "last_successful_update_utc": "2026-10-10T16:51:53.883960+00:00",
     "history_through_draw_id": 2456,
     "target_draw_id": 2457,
-    "outcome": "prediction_created",
+    "outcome": "existing_prediction_preserved",
     "source_check": {
-      "checked_at_utc": "2026-10-10T16:36:11.796837+00:00",
+      "checked_at_utc": "2026-10-10T16:51:53.838776+00:00",
       "source": "https://www.lldj.com/en/LatestResults",
       "latest_draw_id": 2456,
       "new_draws": 0,
