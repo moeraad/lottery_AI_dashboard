@@ -1,44 +1,44 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-10T16:57:59.290373+00:00",
+  "generated_at_utc": "2026-10-12T23:16:04.700640+00:00",
   "latest_result": {
-    "draw_id": 2456,
-    "date": "2026-10-08",
+    "draw_id": 2457,
+    "date": "2026-10-12",
     "main_numbers": [
-      3,
-      5,
-      14,
-      17,
-      24,
-      33
+      4,
+      13,
+      18,
+      22,
+      28,
+      37
     ],
     "additional_number": 6
   },
   "next_prediction": {
     "schema_version": 1,
-    "target_draw_id": 2457,
+    "target_draw_id": 2458,
     "predicted_grid": [
       4,
       8,
+      11,
       12,
-      22,
       32,
       36
     ],
-    "created_at_utc": "2026-10-10T16:36:13.488539+00:00",
-    "prediction_deadline_utc": "2026-10-11T21:00:00+00:00",
-    "history_through_draw_id": 2456,
-    "history_sha256": "e914be6c6fbe63bb5e7a39b7cfb8128d21bc7c7557a62c9ee1cd7c05d399e6c1",
+    "created_at_utc": "2026-10-12T23:16:01.183462+00:00",
+    "prediction_deadline_utc": "2026-10-14T21:00:00+00:00",
+    "history_through_draw_id": 2457,
+    "history_sha256": "16ad092134bb58c212c8d73f910699162d2f3362200b4be3c8084159cce6276a",
     "model_sha256": "4ddd3febe8e7272feddbe69ce206c8e50af81d2543e1609f1fd05206ba557798",
     "best_epoch": 96,
     "sequence_length": 40,
     "source_check": {
-      "checked_at_utc": "2026-10-10T16:36:11.796837+00:00",
+      "checked_at_utc": "2026-10-12T23:15:58.882846+00:00",
       "source": "https://www.lldj.com/en/LatestResults",
-      "latest_draw_id": 2456,
-      "new_draws": 0,
+      "latest_draw_id": 2457,
+      "new_draws": 1,
       "latest_result_corrected": false,
-      "history_sha256": "e914be6c6fbe63bb5e7a39b7cfb8128d21bc7c7557a62c9ee1cd7c05d399e6c1"
+      "history_sha256": "16ad092134bb58c212c8d73f910699162d2f3362200b4be3c8084159cce6276a"
     }
   },
   "model": {
@@ -155,37 +155,88 @@
     "historical_score_note": "The test set was used to select this model. These are historical tuning scores, not future performance."
   },
   "status": {
-    "last_successful_update_utc": "2026-10-10T16:51:53.883960+00:00",
-    "history_through_draw_id": 2456,
-    "target_draw_id": 2457,
-    "outcome": "existing_prediction_preserved",
+    "last_successful_update_utc": "2026-10-12T23:16:01.218430+00:00",
+    "history_through_draw_id": 2457,
+    "target_draw_id": 2458,
+    "outcome": "prediction_created",
     "source_check": {
-      "checked_at_utc": "2026-10-10T16:51:53.838776+00:00",
+      "checked_at_utc": "2026-10-12T23:15:58.882846+00:00",
       "source": "https://www.lldj.com/en/LatestResults",
-      "latest_draw_id": 2456,
-      "new_draws": 0,
+      "latest_draw_id": 2457,
+      "new_draws": 1,
       "latest_result_corrected": false,
-      "history_sha256": "e914be6c6fbe63bb5e7a39b7cfb8128d21bc7c7557a62c9ee1cd7c05d399e6c1"
+      "history_sha256": "16ad092134bb58c212c8d73f910699162d2f3362200b4be3c8084159cce6276a"
     }
   },
   "live_performance": {
-    "draws": 0,
+    "draws": 1,
     "three_plus_count": 0,
-    "three_plus_rate": null,
+    "three_plus_rate": 0.0,
     "match_counts_0_to_6": [
       0,
       0,
-      0,
+      1,
       0,
       0,
       0,
       0
     ],
     "weighted_points": 0,
-    "selection_score": null
+    "selection_score": 0.0
   },
-  "prediction_history": [],
+  "prediction_history": [
+    {
+      "schema_version": 1,
+      "draw_id": 2457,
+      "actual": {
+        "draw_id": 2457,
+        "date": "2026-10-12",
+        "main_numbers": [
+          4,
+          13,
+          18,
+          22,
+          28,
+          37
+        ],
+        "additional_number": 6
+      },
+      "forecast_sha256": "ec44d54754fe9744761c15e78d4317a5e3578ed2fe8e3ee92758284c1f0865c7",
+      "actual_sha256": "6c890a8252e1b5c74021dc85776612c3ff08ee61ec1785a51a81f8bfbcb1ff04",
+      "predicted_grid": [
+        4,
+        8,
+        12,
+        22,
+        32,
+        36
+      ],
+      "matched_numbers": [
+        4,
+        22
+      ],
+      "main_hits": 2,
+      "three_plus": false,
+      "weighted_points": 0,
+      "model_sha256": "4ddd3febe8e7272feddbe69ce206c8e50af81d2543e1609f1fd05206ba557798",
+      "forecast_created_at_utc": "2026-10-10T16:36:13.488539+00:00",
+      "scored_at_utc": "2026-10-12T23:15:58.960694+00:00"
+    }
+  ],
   "draw_history": [
+    {
+      "draw_id": 2457,
+      "date": "2026-10-12",
+      "main_numbers": [
+        4,
+        13,
+        18,
+        22,
+        28,
+        37
+      ],
+      "additional_number": 6
+    },
     {
       "draw_id": 2456,
       "date": "2026-10-08",
