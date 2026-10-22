@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-19T21:16:59.432228+00:00",
+  "generated_at_utc": "2026-10-22T20:20:10.268142+00:00",
   "latest_result": {
-    "draw_id": 2459,
-    "date": "2026-10-19",
+    "draw_id": 2460,
+    "date": "2026-10-22",
     "main_numbers": [
+      6,
       7,
-      10,
-      13,
-      14,
-      15,
-      26
+      25,
+      28,
+      30,
+      34
     ],
-    "additional_number": 37
+    "additional_number": 5
   },
   "next_prediction": {
     "schema_version": 1,
-    "target_draw_id": 2460,
+    "target_draw_id": 2461,
     "predicted_grid": [
       1,
       4,
@@ -25,20 +25,20 @@
       12,
       32
     ],
-    "created_at_utc": "2026-10-19T21:16:56.087095+00:00",
-    "prediction_deadline_utc": "2026-10-21T21:00:00+00:00",
-    "history_through_draw_id": 2459,
-    "history_sha256": "785cb5b963df8ea81808d975c07bfc2d7b3c6cf3809df4b6418701a0096a3502",
+    "created_at_utc": "2026-10-22T20:20:05.671521+00:00",
+    "prediction_deadline_utc": "2026-10-25T22:00:00+00:00",
+    "history_through_draw_id": 2460,
+    "history_sha256": "05da49961940decc3d5be46017cffc8d4da6ea08c7bba7c42eb57d95c2582a65",
     "model_sha256": "4ddd3febe8e7272feddbe69ce206c8e50af81d2543e1609f1fd05206ba557798",
     "best_epoch": 96,
     "sequence_length": 40,
     "source_check": {
-      "checked_at_utc": "2026-10-19T21:16:54.481684+00:00",
+      "checked_at_utc": "2026-10-22T20:20:03.619070+00:00",
       "source": "https://www.lldj.com/en/LatestResults",
-      "latest_draw_id": 2459,
+      "latest_draw_id": 2460,
       "new_draws": 1,
       "latest_result_corrected": false,
-      "history_sha256": "785cb5b963df8ea81808d975c07bfc2d7b3c6cf3809df4b6418701a0096a3502"
+      "history_sha256": "05da49961940decc3d5be46017cffc8d4da6ea08c7bba7c42eb57d95c2582a65"
     }
   },
   "model": {
@@ -155,26 +155,26 @@
     "historical_score_note": "The test set was used to select this model. These are historical tuning scores, not future performance."
   },
   "status": {
-    "last_successful_update_utc": "2026-10-19T21:16:56.107725+00:00",
-    "history_through_draw_id": 2459,
-    "target_draw_id": 2460,
+    "last_successful_update_utc": "2026-10-22T20:20:05.706232+00:00",
+    "history_through_draw_id": 2460,
+    "target_draw_id": 2461,
     "outcome": "prediction_created",
     "source_check": {
-      "checked_at_utc": "2026-10-19T21:16:54.481684+00:00",
+      "checked_at_utc": "2026-10-22T20:20:03.619070+00:00",
       "source": "https://www.lldj.com/en/LatestResults",
-      "latest_draw_id": 2459,
+      "latest_draw_id": 2460,
       "new_draws": 1,
       "latest_result_corrected": false,
-      "history_sha256": "785cb5b963df8ea81808d975c07bfc2d7b3c6cf3809df4b6418701a0096a3502"
+      "history_sha256": "05da49961940decc3d5be46017cffc8d4da6ea08c7bba7c42eb57d95c2582a65"
     }
   },
   "live_performance": {
-    "draws": 3,
+    "draws": 4,
     "three_plus_count": 0,
     "three_plus_rate": 0.0,
     "match_counts_0_to_6": [
       0,
-      2,
+      3,
       1,
       0,
       0,
@@ -185,6 +185,42 @@
     "selection_score": 0.0
   },
   "prediction_history": [
+    {
+      "schema_version": 1,
+      "draw_id": 2460,
+      "actual": {
+        "draw_id": 2460,
+        "date": "2026-10-22",
+        "main_numbers": [
+          6,
+          7,
+          25,
+          28,
+          30,
+          34
+        ],
+        "additional_number": 5
+      },
+      "forecast_sha256": "2907b7f7a732fa5e035108238f7fbcff0c801611ecf669c9ebd686414a23a881",
+      "actual_sha256": "ac4462d8a8e6ecebd5af7176e72504e4faf6091a5ee5b4d3d593d1e44e431da8",
+      "predicted_grid": [
+        1,
+        4,
+        7,
+        11,
+        12,
+        32
+      ],
+      "matched_numbers": [
+        7
+      ],
+      "main_hits": 1,
+      "three_plus": false,
+      "weighted_points": 0,
+      "model_sha256": "4ddd3febe8e7272feddbe69ce206c8e50af81d2543e1609f1fd05206ba557798",
+      "forecast_created_at_utc": "2026-10-19T21:16:56.087095+00:00",
+      "scored_at_utc": "2026-10-22T20:20:03.690906+00:00"
+    },
     {
       "schema_version": 1,
       "draw_id": 2459,
@@ -296,6 +332,19 @@
     }
   ],
   "draw_history": [
+    {
+      "draw_id": 2460,
+      "date": "2026-10-22",
+      "main_numbers": [
+        6,
+        7,
+        25,
+        28,
+        30,
+        34
+      ],
+      "additional_number": 5
+    },
     {
       "draw_id": 2459,
       "date": "2026-10-19",
